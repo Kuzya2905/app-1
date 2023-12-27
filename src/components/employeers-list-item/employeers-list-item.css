@@ -1,0 +1,51 @@
+.btn-list-item {
+  border: 0;
+  display: block;
+  align-items: center;
+  line-height: 25px;
+  flex-grow: 1;
+  font-size: 20px;
+  background-color: white;
+  text-align: left;
+  padding-left: 30px;
+}
+.list-group-item.increase {
+  color: rgb(255, 38, 0);
+}
+.list-group-item .fas {
+  padding-top: 13px;
+  padding-left: 8px;
+  opacity: 0;
+  color: rgb(33, 37, 41);
+}
+.list-group-item.star .fas {
+  opacity: 1;
+}
+.list-group-item input {
+  max-width: 230px;
+  border: none;
+  color: black;
+  font-size: 20px;
+  text-align: center;
+  margin-right: 20px;
+}
+.list-group-item.increase .btn-list-item {
+  color: rgb(255, 38, 0);
+}
+.list-group-item.increase input {
+  color: rgb(255, 38, 0);
+}
+.list-group-item.increase .fa-money-bill-trend-up {
+  color: rgb(255, 38, 0);
+}
+.list-group-item input:focus {
+  box-shadow: 0 0 0 0.25rem rgb(41, 54, 112);
+}
+.list-group-item i {
+  scale: 1.5;
+}
+.list-group-item {
+  border-bottom: 1px solid black;
+  padding: 5px;
+  padding-right: 15px;
+}

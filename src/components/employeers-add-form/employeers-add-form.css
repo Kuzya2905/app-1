@@ -1,0 +1,18 @@
+.footerForm {
+  padding: 25px;
+  background-color: #3d5a80;
+  border-radius: 4px;
+  box-shadow: 15px 15px 30px rgb(0,0,0, .15);
+  color: #fff;
+  font-size: 28px;
+  margin-top: 30px;
+}
+.footerForm form {
+  margin-top: 20px;
+}
+.footerForm input {
+  margin-right: 2%;
+}
+.footerForm button {
+  margin-right: 10%;
+}
